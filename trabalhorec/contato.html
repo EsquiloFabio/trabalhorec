@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html" rel="prev">pagina inicial</a></li>
+            <li>desenho
+                <ul>
+                    <li><a href="gumball.html">gumball</a></li>
+                    <li><a href="scooby.html">Scooby-doo</a></li>
+                    <li><a href="cavernadragao.html">caverna do dragão</a></li>
+                </ul>
+            </li>
+            <li><a href="lista.html">Lista</a></li>
+            <li><a href="historia.html">historia</a></li>
+            <li><a href="galeria.html">galeria</a></li>
+            <li><a href="contato.html">contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 style="color: var(--color1);">Meu numero de contato:</h1>
+        <p>(32) 8459-5995</p>
+        <form>
+            <fieldset>
+                <legend >Formulario</legend>
+                <label for="idname">Nome:</label><input type="text" name="nname" id="idname" size="30" placeholder="primeiro nome ou apelido">
+                <br>
+                <label for="idpassword">Senha que voce mais usa(para fins educativos):</label><input type="password" name="npassword" id="idpassword">
+                <br>
+                <label for="idemail">E-mail:</label><input type="email" name="nemail" id="idemail">
+                <br>
+                <label for="iddate">Data que voce assistiu seu primeiro desenho:</label><input type="date" name="ndate" id="iddate">
+                <fieldset>
+                    <legend>Sexo:</legend>
+                    <input type="radio" name="nsexo" id="id1sexo"><label for="ids1sexo">Atacante</label>
+                    <br>
+                    <input type="radio" name="nsexo" id="id2sexo"><label for="id2sexo">Goleiro</label>
+                    <br>
+                    <input type="radio" name="nsexo" id="id3sexo"><label for="id3sexo">Caça A-26</label>
+                </fieldset>
+                <label for="idnumero">Digite o numero de vezes que voce assistiu Bem10: </label><input type="number" name="nnumero" id="idnumero">
+                <br>
+                <label for="idteste">1 ou 2?(teste social foda)</label><input type="range" name="nteste" id="idteste" min="1" max="2">
+                <br>
+                <label for="idcaneta">Voce ja virou a noite assistindo desenho :</label><select id="idcaneta">
+                    <option id="idcaneta">Sim</option>
+                    <option id="idcaneta">Nao</option>
+                    <option id="idcaneta">O que voce tava tava programando entre 1935 e 1949?</option>
+                </select>
+
+                
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
